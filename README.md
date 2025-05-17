@@ -1,7 +1,7 @@
 # 🚘Advanced Driver Assistance System(ADAS)- Featuring Adaptive Cruise Control (ACC) & Lane Keeping Assist (LKA)
 
 ## 📌 Project Overview
-This project showcases a model‑based design and real‑time prototyping of Adaptive Cruise Control (ACC) and Lane Keeping Assist (LKA) – two core features of modern Advanced Driver Assistance Systems (ADAS). The system combines Simulink‑based modeling (for controller design and PID tuning) with Arduino + Pixy2 prototyping (for live sensor feedback and actuation) to validate concepts like speed regulation, safe distance maintenance, and lane tracking.
+This project showcases a model‑based design and real‑time prototyping of Adaptive Cruise Control (ACC) and Lane Keeping Assist (LKA) two core features of modern Advanced Driver Assistance System (ADAS). The system combines Simulink‑based modeling (for controller design and PID tuning) with Arduino + Pixy2 prototyping (for live sensor feedback and actuation) to validate concepts like speed regulation, safe distance maintenance, and lane tracking.
 
 ## ⚙️ What I Built
 
@@ -21,14 +21,14 @@ This project showcases a model‑based design and real‑time prototyping of Ada
 - Data logging of distance and lane‑offset values for offline analysis.  
 
 ## 📈 Key Outcomes
-- 🔹 Stable, responsive control with PID‑tuned ACC (overshoot < 5%, rise time < 0.1 s)  
-- 🔹 Accurate lane tracking under straight and curved sections using Pixy2 vectors  
-- 🔹 Real‑world validation on a scaled test track with obstacles and painted lanes  
+🔹 Stable, responsive control with PID‑tuned ACC (overshoot < 5%, rise time < 0.1 s)  
+🔹 Accurate lane tracking under straight and curved sections using Pixy2 vectors  
+🔹 Real‑world validation on a scaled test track with obstacles and painted lanes  
 
 ## 🧠 Tech Stack
-- 🔧 **Simulink + MATLAB**: control‑system modeling, PID tuning, root‑locus & step‑response analysis  
-- 🔧 **Arduino IDE + Embedded C**: sensor interfacing, Pixy2 CMUcam5 library, motor actuation via PWM  
-- 🔧 **Sensors & Actuators**:  
+🔧 **Simulink + MATLAB**: control‑system modeling, PID tuning, root‑locus & step‑response analysis  
+🔧 **Arduino IDE + Embedded C**: sensor interfacing, Pixy2 CMUcam5 library, motor actuation via PWM  
+🔧 **Sensors & Actuators**:  
   - HC‑SR04 Ultrasonic (distance for ACC)  
   - Pixy2 Vision Sensor (line detection for LKA)  
   - L298N Motor Driver & DC motors (speed/steering simulation)  
@@ -46,9 +46,9 @@ This project showcases a model‑based design and real‑time prototyping of Ada
 3. If deviation > threshold → generate left/right steering command; else go straight.  
 
 ## 🧪 Tools Used
-- 🛠️ **MATLAB + Simulink** (control design & PID tuning)  
-- 🛠️ **Arduino IDE + Pixy2 library** (firmware & vision integration)  
-- 🛠️ **PixyMon** (training and calibration of Pixy2 vision sensor)
+🛠️ **MATLAB + Simulink** (control design & PID tuning)  
+🛠️ **Arduino IDE + Pixy2 library** (firmware & vision integration)  
+🛠️ **PixyMon** (training and calibration of Pixy2 vision sensor)
 
 ## 🚘Car Model
 
