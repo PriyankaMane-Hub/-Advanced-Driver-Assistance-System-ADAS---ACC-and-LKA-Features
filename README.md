@@ -48,7 +48,11 @@ This project showcases a model‑based design and real‑time prototyping of Ada
 ## 🧪 Tools Used
 - 🛠️ **MATLAB + Simulink** (control design & PID tuning)  
 - 🛠️ **Arduino IDE + Pixy2 library** (firmware & vision integration)  
-- 🛠️ **PixyMon** (training and calibration of Pixy2 vision sensor)  
+- 🛠️ **PixyMon** (training and calibration of Pixy2 vision sensor)
+
+## 🚘Car Model
+
+![Initial_Car_Model](https://github.com/user-attachments/assets/232eec37-83d9-4745-9057-b65ca74fcffc)
 
 ## 📘 What I Learned
 Throughout this project, I gained hands‑on experience with model‑based control in Simulink-designing and tuning PID controllers via root‑locus and step‑response analysis-and then translating those gains into Embedded C on an Arduino. I used PixyMon to train and calibrate the Pixy2 vision sensor’s line‑tracking parameters, and integrated its line‑vector output into real‑time lane‑centering logic. I also fused ultrasonic distance readings with vision feedback for a robust multi‑modal control strategy. Building the full prototype from high‑level Simulink models to low‑level Arduino firmware-taught me system validation on constrained hardware, while custom track testing and performance logging reinforced a safety‑focused approach essential for automotive applications.
